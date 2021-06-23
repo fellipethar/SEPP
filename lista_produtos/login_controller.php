@@ -20,7 +20,7 @@
 
     if($total == 1) {
         $_SESSION['email'] = $email;
-        header('Location: index.php');
+        header('Location: dashboard.php');
         exit();
     }else {
         header('Location: cadastra.php');

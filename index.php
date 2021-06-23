@@ -10,28 +10,37 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-			<div class="container">
+	<nav class="navbar navbar-expand-sm bg-primary navbar-dark mb-5">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.php">Cadastra Produtos</a>
+				<a class="navbar-brand" href=""><h2>SEPP</h2></a>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li class="nav-item ">
+							<a class="nav-link  " href="dashboard.php">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+								<path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+								</svg> Dashboard
+							</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="estoque.php"> <i class="fas fa-box-open"></i> Estoque</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="listarfornecedor.php"> <i class="fas fa-box-open"></i> Fornecedores</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="estoque.php">Estoque</a>
+							<a class="nav-link" href="fornecedor.php"><i class="fas fa-truck"></i> Cadastrar Fornecedores</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="fornecedor.php">Fornecedores</a>
+							<a class="nav-link" href="index.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+								<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
+								</svg> Cadastrar Produto
+							</a>
 						</li>
 					</ul>
-				
-				</div>
-			</div>
-		</nav>
+				</nav>
 
 		<?php if( isset($_GET['inclusao']) && $_GET['inclusao'] == 1 ) { ?>
 			<div class="bg-success pt-2 text-white d-flex justify-content-center">

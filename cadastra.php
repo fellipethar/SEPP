@@ -8,17 +8,20 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\Maico\Documents\Login\bootstrap-5.0.1-dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="css/telacadastro.css">
+     <link rel="stylesheet" href="css\telacadastro.css">
+  
     <title>Cadastro</title>
   </head>
   <body >    
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <a class="navbar-brand" href="tela_login.html" style="margin-left: 20px;" ><h2>SEPP</h2></a>
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+      <a class="navbar-brand" href="login.php" style="margin-left: 20px;"><h2>SEPP</h2></a>
     </nav>
-    <div class="card" id="cadastro" style="border-radius: 10px; top: 55%; height: 600px; width: 650px; margin-left: 23%; margin-top: 10px; box-shadow: 1px 5px 40px rgb(49, 52, 53)">
+    <div class="card" id="cadastro" style="border-radius: 10px; top: 55%; height: 650px; width: 650px; margin-top: 10px; box-shadow: 1px 5px 40px rgb(49, 52, 53)">
         <nav > <p class="font-weight-light text-center align-content-md-center " style="margin-bottom: -20px; font-size: 35px; margin-top: 20px; background-color: rgb(241, 241, 239);">Realize o seu cadastro</p></nav>
-        
-		<form id="form" method="post"action="usuario_controller.php?acao=inserir" style="margin-left: 20%">
+      
+  
+
+        <form id="form" method="post"action="usuario_controller.php?acao=inserir" style="margin-left: 20%">
             <div class="form-row" style="width: 700px;">
               <div class="form-group col-md-6">
                   <label for="inputEmail4">Email</label>

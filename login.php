@@ -13,7 +13,7 @@
   </head>
   <body id="body">    
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-      <a class="navbar-brand" href="tela_login.html" style="margin-left: 20px;"><h2>SEPP</h2></a>
+      <a class="navbar-brand" href="login.php" style="margin-left: 20px;"><h2>SEPP</h2></a>
     </nav>
     <div class="card" id="telalogin" style="border-radius: 10px; top: 55%; height: 580px; width: 500px; padding-left: 20px; padding-right: 20px;">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
